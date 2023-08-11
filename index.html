@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/lava.html">
+    <title>Wh Detail</title>
+</head>
+<body>
+     <!-- sessão de header-->
+    <header>
+        <div id="header-area" > 
+            <div id="menu-section">
+                <div id="menu-container" class="d-flex align-items-center justify-content-between container-md">
+                   <div class="logo-area">
+                        <div id="logo">
+                            <img src="imagens/logo.png" alt="">
+                        </div>
+                        <div id="logo-description">
+                            <h3> <strong>wh</strong> <span></span> detail </h3>
+                            <p>Estetica automotiva</p>
+                        </div>
+                   </div>
+                  
+                    <nav id="menu">
+                        <ul class="d-flex">
+                            <li data-aos="fade-down"><a href="#header-area"> home</a></li>
+                            <li data-aos="fade-down"><a href="#service-area">serviços</a></li>
+                            <li data-aos="fade-down"><a href="#sobre">SOBRE NÓS</a></li>
+                            <li data-aos="fade-down"><a href="#course">cursos</a></li>
+                            <li data-aos="fade-down"><a href="#contato">contatos</a></li>
+                        </ul>
+                        
+                    </nav>
+
+                </div>
+               
+            </div>
+            <!-- area de menu mobile-->
+            <div id="menu-mobile">
+                <div id="menu-button">
+                    <!--
+                        <i class="bi bi-list"></i>
+                    -->
+                    <div id="menu-btn-area">
+                        <div id="menu-element-t"></div>
+                        <div id="menu-element-c"></div>
+                        <div id="menu-element-b"></div>
+                    </div>
+                   
+                   
+                </div>
+                <nav id="menu-mb">
+                    <ul class="d-flex flex-column">
+                        <li><a href="#header-area"> <i class="bi bi-house"></i>  home  </i></a></li>
+                        <li><a href="#service-area"> <i class="bi bi-tools"></i> serviços</a></li>
+                        <li><a href="#sobre"><i class="bi bi-people"></i> SOBRE NÓS</a></li>
+                        <li><a href="#course"> <i class="bi bi-pencil-square"></i> cursos</a></li>
+                        <li><a href="#contato"> <i class="bi bi-telephone-plus"></i> contatos</a></li>
+                    </ul>
+
+                    <div id="mb-btn">
+                     
+                         <a href="https://wa.me/5561993624234" target="_blank" rel="noopener noreferrer"> 
+                            fazer orçamento
+                        </a>
+                    
+                        </div>
+                    <div id="menu-redes">
+                        <a href="https://www.instagram.com/" blank=""> instagram</a>
+                        <a href="https://www.tiktok.com/explore" blank=""> tiktok</a>
+                        <a href="https://www.youtube.com/" blank=""> youtube</a>
+                    </div>
+                </nav>
+             
+                
+            </div>
+ 
+             <!-- sessão de banner-->
+            <div id="bannear">
+                <!--
+                 <img src="/imagens/detail.jpg" id="banner-img">
+                    <div id="banner-text--description">
+                        <h1>renovamos a beleza que habita nos detalhes</h1>
+                        <button>
+                        <h2>Conheça a nossa limpeza Detail</h2> 
+                        </button>
+                        
+                    </div>
+
+                -->
+                <div id="carouselExampleAutoplaying" class="carousel slide slide-h ds" data-bs-ride="carousel">
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active">
+                            <img src="/imagens/capa1.png" id="banner-img" class="d-block w-100"  >
+                            <div id="banner-text--description " class="text-one">
+                                <h1>especializados em <strong>vitrificação</strong></h1>
+                                <p > proteja a pitura e realce a beleza do seu carro</p>
+                                <button>
+                                <h2>Conheça a nossa limpeza Detail</h2> 
+                                </button>
+                                
+                            </div>
+                        </div>
+                      
+                      <div class="carousel-item">
+                        <img src="/imagens/banco.jpg" class="d-block w-100" alt="...">
+                        <div id="banner-text--description" >
+                            <h1>higienização e hidratação em  <strong>bancos de couro</strong></h1>
+                            <p> com proteção e vida util prolongada</p>
+                            <button>
+                            <h2>Conheça a nossa limpeza Detail</h2> 
+                            </button>
+                            
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/imagens/vitrificação.jpg" class="d-block w-100" alt="...">
+                        <div id="banner-text--description">
+                            <h1>conheça nossos serviços de <strong>polimentos</strong></h1>
+                            <p>tenha seu carro livre de riscos com nosso polimento tecnico</p>
+                            <button>
+                            <h2>ver planos</h2> 
+                            </button>
+                            
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+                <!--banner mobile -->
+
+
+                <div id="carouselExampleAutoplaying" class="carousel slide slide-h mb-sl" data-bs-ride="carousel">
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active">
+                            <img src="/imagens/tts.jpg" id="banner-img" class="d-block w-100"  >
+                            <div id="banner-text--description">
+                                <h1>especializados em <strong>vitrificação</strong></h1>
+                                <p > proteja a pitura e realce a beleza do seu carro</p>
+                                <button>
+                                <h2>Conheça a nossa limpeza Detail</h2> 
+                                </button>
+                                
+                            </div>
+                        </div>
+                      
+                      <div class="carousel-item">
+                        <img src="/imagens/tstt.jpg" class="d-block w-100" alt="...">
+                        <div id="banner-text--description">
+                            <h1>higienização e hidratação em  <strong>bancos de couro</strong></h1>
+                            <p> com proteção e vida util prolongada</p>
+                            <button>
+                            <h2>Conheça a nossa limpeza Detail</h2> 
+                            </button>
+                            
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/imagens/tstcar.jpg" class="d-block w-100" alt="...">
+                           <div id="banner-text--description">
+                            <h1>conheça nossos serviços de <strong>polimentos</strong></h1>
+                            <p>tenha seu carro livre de riscos com nosso polimento tecnico</p>
+                            <button>
+                            <h2>ver planos</h2> 
+                            </button>
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- sessão de cards de serviço-->
+    <section>
+      
+        <div id="service-area" class="container"  >
+
+           
+            
+            <div id="areaheader" >
+                
+             <h2 data-aos="fade-down">Nossos Serviços</h2>
+             
+            </div>
+            <div id="list-services" >
+                <ul>
+                    <li data-aos="fade-right"><a href=""> vitrificação</a></li>
+                    <li data-aos="fade-right"><a href=""> Polimentos</a></li>
+                    <li data-aos="fade-right"><a href=""> lavagem detail</a></li>
+                    <li data-aos="fade-right"><a href=""> higienização</a></li>
+                    <li data-aos="fade-right"><a href=""> tratamento de motor</a></li>
+                    <li data-aos="fade-right"><a href=""> revitalização de farois</a></li>
+                    <li data-aos="fade-right"><a href=""> outros serviços</a></li>
+                </ul>
+            </div>
+            
+
+        
+         
+            <div id="services-sections" class="dragscroll" >
+
+                <div class="box-service" id="vitrificacao">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>vitrificação</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                                
+                                <!-- Button trigger modal -->
+                                <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vitrimodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="vitrimodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-1 " id="exampleModalLabel">vitrificação</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                         
+                                           
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                            </div>
+                                            <h3 style="text-transform:uppercase;">processo de vitrificação</h3>
+                                            <span>
+                                                    Para o processo de vitrificação, nós iniciamos com a lavagem
+                                                    técnica da pintura, limpando todos os cantinhos, emblemas,
+                                                     borrachas e fazemos a descontaminação da pintura. 
+                                                
+                                                 
+                                                  <br>    <br> 
+                                                   Feito esse processo, 
+                                                  iniciamos o mapeamento do carro, que é verificar o carro por completo 
+                                                  pra ver se há riscos mais profundos e repinturas em algumas peças. 
+                                                  <br>   <br> 
+                                                   O próximos passo é iniciar o mascaramento, 
+                                                  que é o isolamento de todas as partes sensíveis do carro, como parachoques, 
+                                                  borrachas, vidros, emblemas. 
+                                                  <br>   <br> 
+                                                   Após o mascaramento, iniciamos o processo de 
+                                                  polimento técnico, que é uma correção de 100% dos danos do verniz; e após o 
+                                                  polimento, iniciamos a vitrificação da pintura.
+                                                  <br>   <br> 
+                                                  A vitrificação é a aplicação minuciosa 
+                                                  de um revestimento nano cerâmico de alta performance para proteger a pintura 
+                                                  do veículo contra danos do tempo, como raios UV, seiva de árvores, 
+                                                  excrementos de pássaros, micro riscos e chuva ácida, facilitando a 
+                                                  lavagem e mantendo o veículo limpo por mais tempo. 
+                                                  <br><br>
+                                                  <strong> Trabalhamos com vitrificações de 1 ano, 3 anos e 5 anos de proteção.</strong>
+                                              
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    <a href="https://wa.me/message/ZL22CWDNQW2IH1" target="_blank" rel="noopener noreferrer">
+                                                        fazer orçamento
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </a>
+                                                   
+                                                </div>
+                                                <hr>
+                                               
+                                                    <div id="contact-btn-right"  style="text-align: center;">
+                                                        <a href="https://instagram.com/wh.detail?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank" rel="">
+                                                            veja mais
+                                                            <i class="bi bi-instagram"></i>
+                                                        </a>
+
+                                                        
+                                                        
+                                                    </div>
+                                              
+
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+            
+                <div class="box-service" id="polimentos">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>polimentos</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                                 <!-- Button trigger modal -->
+                                 <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#polimodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="polimodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-1 " id="exampleModalLabel">polimentos</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                        <img src="" alt="">
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                            </div>
+
+                                            <h3 style="text-transform:uppercase;">processo de polimento</h3>
+                                            <span>
+                                                Para o preocesso de polimento, nós iniciamos com a lavagem técnica da pintura, 
+                                                limpando todos os cantinhos, emblemas, borrachas
+                                                 e fazemos a descontaminação da pintura. 
+                                                 <br><br>
+                                                 Feito esse processo, iniciamos o mapeamento do carro, 
+                                                 que é verificar o carro por completo pra ver se há riscos
+                                                  mais profundos e repinturas em algumas peças. 
+                                                  <br><br>
+                                                  O próximo passo é iniciar o mascaramento, que é o isolamento de 
+                                                  todas as partes sensíveis do carro, como parachoques, borrachas, 
+                                                  vidros, emblemas. 
+                                                  <br><br>
+                                                  Após o mascaramento, iniciamos o processo de polimento 
+                                                  técnico, que é uma correção de 100% dos danos do verniz. 
+                                                  <br><br>
+                                                  E trabalhamos com o polimento comercial que é a correção parcial de até 
+                                                  70% dos danos do verniz.
+
+                                                  Para finalizar aplicamos um selante sintético da 
+                                                  <a href="https://www.carprobrasil.com.br/product-page/reload" target="_blank" rel="noopener noreferrer" style="text-decoration: none;color:black;font-weight: bold;"> CARPRO</a>
+                                                  de 
+                                                  <strong>
+                                                    até 6 meses de proteção
+                                                  </strong>
+                                                   em ambos os polimentos.
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    <a href="https://wa.me/message/ZL22CWDNQW2IH1" target="_blank" rel="noopener noreferrer">
+                                                        fazer orçamento
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </a>
+                                                   
+                                                </div>
+                                                <hr>
+                                               
+                                                    <div id="contact-btn-right"  style="text-align: center;">
+                                                        <a href="https://instagram.com/wh.detail?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank" rel="">
+                                                            veja mais
+                                                            <i class="bi bi-instagram"></i>
+                                                        </a>
+
+                                                        
+                                                        
+                                                    </div>
+                                              
+
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+                
+                  
+                    
+                <div class="box-service" id="detail">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>lavagem detail</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                                 <!-- Button trigger modal -->
+                                 <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailmodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="detailmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-1 " id="exampleModalLabel">lavagem detail</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                        <img src="" alt="">
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                            </div>
+                                            <h3 style="text-transform:uppercase;">processo de lavagem técnica</h3>
+                                            <span>
+                                                Para o processo de lavagem técnica nós iniciamos com a lavagem técnica da pintura, 
+                                                limpando todos os cantinhos, emblemas, borrachas e fazemos a descontaminação da pintura,
+                                                 que é uma limpeza profunda do verniz aonde a lavagem convencional não consegue limpar, 
+                                                 após a destruição
+                                                 <strong>aplicamos uma cera Premium de até 4 meses de proteção.</strong>
+                                                 
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    <a href="https://wa.me/message/ZL22CWDNQW2IH1" target="_blank" rel="noopener noreferrer">
+                                                        fazer orçamento
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </a>
+                                                   
+                                                </div>
+                                                <hr>
+                                               
+                                                    <div id="contact-btn-right"  style="text-align: center;">
+                                                        <a href="https://instagram.com/wh.detail?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank" rel="">
+                                                            veja mais
+                                                            <i class="bi bi-instagram"></i>
+                                                        </a>
+
+                                                        
+                                                        
+                                                    </div>
+                                              
+
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+                <div class="box-service" id="higienização">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>higienização</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                               <!-- Button trigger modal -->
+                               <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#higienizacaomodal">
+                                saiba mais <i class="bi bi-plus-circle"></i>
+                            </button>
+                                <!-- Modal -->
+                            <div class="modal fade" id="higienizacaomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-1 " id="exampleModalLabel">vitrificação</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                     
+                                       
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="capa">
+                                            <img src="/imagens/vitrificação.jpg" alt="">
+                                            <h3 style="text-transform:uppercase;">processo de tratamento do motor</h3>
+
+                                        </div>
+                                        <span>
+                                            É um processo de limpeza profunda de todo o interior do veículo, onde fazemos a limpeza do teto, 
+                                            colunas, cinto de segurança, detalhamento do painel, higienização dos bancos, higienização do carpete 
+                                            <i>(em alguns casos, removemos o carpete para poder fazer a troca do feltro)</i>
+                                            <br><br>
+                                            <strong>
+                                                Após a finalização da higienização revitalizamos todos os 
+                                                 plásticos internos no padrão original e a hidratação dos bancos caso for couro.
+                                            </strong>
+                                            
+
+                                        </span>
+                                        <div id="service-result">
+                                                
+                                            <img src="/imagens/antEdep.jpg" alt="">
+                                            <img src="/imagens/antEdep.jpg" alt="">
+                                            <img src="/imagens/antEdep.jpg" alt="">
+                                            <img src="/imagens/antEdep.jpg" alt="">
+                                        </div>
+                                        <div id="modal-contact">
+                                            <div id="contact-btn-left" style="text-align: center;">
+                                                <a href="https://wa.me/message/ZL22CWDNQW2IH1" target="_blank" rel="noopener noreferrer">
+                                                    fazer orçamento
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </a>
+                                               
+                                            </div>
+                                            <hr>
+                                           
+                                                <div id="contact-btn-right"  style="text-align: center;">
+                                                    <a href="https://instagram.com/wh.detail?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank" rel="">
+                                                        veja mais
+                                                        <i class="bi bi-instagram"></i>
+                                                    </a>
+
+                                                    
+                                                    
+                                                </div>
+                                          
+
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="box-service" id="motor">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>tratamento de motor</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                                  <!-- Button trigger modal -->
+                                  <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#motormodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="motormodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-1 " id="exampleModalLabel">vitrificação</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                         
+                                           
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                                <h3 style="text-transform:uppercase;">processo de tratamento do motor</h3>
+                                            </div>
+                                            <span>
+                                                É um processo de limpeza técnica do motor, onde fazemos uma limpeza detalhada de todo o cofre do motor, 
+                                                limpando todas as mangueiras, conectores, plásticos e o motor. Após a limpeza.
+                                                <br><br>
+                                                <strong>
+                                                    finalizamos com uma proteção de até 6 meses, hidratando a mangueiras, conectores e os plásticos e restarando o aspecto de novo.
+                                                </strong>
+                                                 
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    <a href="https://wa.me/message/ZL22CWDNQW2IH1" target="_blank" rel="noopener noreferrer">
+                                                        fazer orçamento
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </a>
+                                                   
+                                                </div>
+                                                <hr>
+                                               
+                                                    <div id="contact-btn-right"  style="text-align: center;">
+                                                        <a href="https://instagram.com/wh.detail?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank" rel="">
+                                                            veja mais
+                                                            <i class="bi bi-instagram"></i>
+                                                        </a>
+    
+                                                        
+                                                        
+                                                    </div>
+                                              
+    
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+                <div class="box-service" id="farois">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>revitalização de farois</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                                  <!-- Button trigger modal -->
+                                  <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#faroismodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="faroismodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-1 " id="exampleModalLabel">vitrificação</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                         
+                                           
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                                <h3 style="text-transform:uppercase;">processo de revitalização de faróis</h3>
+                                            </div>
+                                            <span>
+                                                Tratamento dos faróis
+                                                É um procedimento onde nós fazemos o nivelamento do policarbonato, 
+                                                removendo o craquelado e aquele aspecto amarelado causado pelo tempo. 
+                                                <br><br>
+                                                Após o nivelamento iniciamos a vitrificação dos faróis, formando um filme vítreo e semeflexivel, transparente e resistente, que também age contra os raios UV e tem ação hidrorepelente. 
+                                                <br><br>
+                                                <strong>
+                                                    Proteção de até 1 ano
+                                                </strong>
+                                                
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    fazer orçamento
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </div>
+                                                <hr>
+                                                <div id="contact-btn-right"  style="text-align: center;">
+                                                    veja mais
+                                                    <i class="bi bi-instagram"></i>
+                                                </div>
+
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+                <div class="box-service" id="micro pinturas">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>micro pinturas</h3>
+                                
+                                <p>A vitrificação da pintura funciona
+                                    esse 4texto e apenas para ocupar espaço
+                                </p>
+                                  <!-- Button trigger modal -->
+                                  <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#microPmodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="microPmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-1 " id="exampleModalLabel">vitrificação</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                         
+                                           
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                            </div>
+                                            <span>
+                                                A vitrificação da pintura funciona com aplicação de um revestimento
+                                                nano cerâmico que é aplicado na pintura do veículo, promovendo hidrorrepelêcia, 
+                                                proteção UV, brilho profundo, minimiza efeitos nocivos de seivas de árvores, excrementos de pássaros,
+                                                ação de raios solares, maresia, chuva ácida,
+                                                facilidade na lavagem e mantém o carro limpo por mais tempo!
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                                <img src="/imagens/antEdep.jpg" alt="">
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    fazer orçamento
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </div>
+                                                <hr>
+                                                <div id="contact-btn-right"  style="text-align: center;">
+                                                    veja mais
+                                                    <i class="bi bi-instagram"></i>
+                                                </div>
+
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+                <div class="box-service" id="outros serviços">
+                    <div id="service-description">
+                        <div id="frame">
+                            <img src="/imagens/espelho.png" alt="">
+
+                        </div>
+                            
+                            
+                            <div id="desc">
+                                <h3>outros serviços</h3>
+                                
+                                <p>
+                                    Clique e veja mais serviços oferecidos
+                                </p>
+                                  <!-- Button trigger modal -->
+                                  <button id="card-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#outroSmodal">
+                                    saiba mais <i class="bi bi-plus-circle"></i>
+                                </button>
+                                    <!-- Modal -->
+                                <div class="modal fade" id="outroSmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-1 " id="exampleModalLabel">vitrificação</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modal-cls-btn"></button>
+                                         
+                                           
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="capa">
+                                                <img src="/imagens/vitrificação.jpg" alt="">
+                                            </div>
+                                            <span>
+                                                <ul style="text-decoration: dotted;">
+                                                    <li>Tratamento das caixas de rodas</li>
+                                                    <li>Tratamento de chassi</li>
+                                                    <li>Romoção de chuva acida dos vidros</li>
+                                                    <li>impermeabilização dos bancos em tecido</li>
+                                                    <li>vitrificação dos bancos em couro</li>
+                                                    <li>vitrificação de plasticos internos e externos</li>
+
+                                                </ul>
+                                              
+
+                                            </span>
+                                            <div id="service-result">
+                                                
+                                            
+                                            </div>
+                                            <div id="modal-contact">
+                                                <div id="contact-btn-left" style="text-align: center;">
+                                                    fazer orçamento
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </div>
+                                                <hr>
+                                                <div id="contact-btn-right"  style="text-align: center;">
+                                                    veja mais
+                                                    <i class="bi bi-instagram"></i>
+                                                </div>
+
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+
+    </section>
+     <!-- sessão sobre mais e galeria-->
+    <section id="sobre">
+        <div id="section-sobreArea" class="container">
+            <div id="sobre-info-area" >
+                <div id="title" data-aos="fade-down">
+                    <h1>
+                        A definição em<br>
+                         <strong>Estetica Automotiva.</strong>
+                    </h1>
+                </div>
+                <hr>
+                <p data-aos="fade-right">
+                   
+                    A WH Detail sempre mostrando seu diferencial, 
+                    sendo atenciosa às necessidades dos nossos clientes
+                    e tratando seus veículos como verdadeiras joias, 
+                    cuidando de cada detalhe. A satisfação dos nossos
+                    clientes é a nossa prioridade.
+                   
+                  
+                </p>
+             
+                
+            </div>
+            <div id="galery" data-aos="fade-left">
+                <div class="banner active">
+                  
+                    <div id="galery-img">
+                        <img src="/imagens/one.png" alt="">
+                    </div>
+                  </div>
+                  <div class="banner">
+                   
+                     <div id="galery-img">
+                        <img src="/imagens/onne.png" alt="">
+                    </div>
+                  </div>
+                  <div class="banner">
+                  
+                    <div id="galery-img">
+                        <img src="/imagens/opa.png" alt="">
+                    </div>
+                  </div>
+                  <div class="banner">
+                    
+                    <div id="galery-img">
+                        <img src="/imagens/one.png" alt="">
+                    </div>
+                  </div>
+                  <div class="banner">
+                  
+                    <div id="galery-img">
+                        <img src="/imagens/opa.png" alt="">
+                    </div>
+                  </div>
+                  <div class="banner">
+                   
+                    <div id="galery-img">
+                        <img src="/imagens/onne.png" alt="">
+                    </div>
+                  </div>
+                  <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                  </div>
+            </div>
+
+        </div>
+    </section>
+     <!-- sessão de curso-->
+    <section id="course">
+        <div id="area-c">
+            <div class="curso-area">
+                <div id="left-side">
+
+                    <div id="section-desc">
+                        <h1 id="h1" data-aos="fade-down">imersão <span>wh detail</span></h1>
+                        <p id="p"  data-aos="zoom-in">
+                            Através da nossa imersão, descubra a excelência onde o conhecimento adquirido 
+                            transcende as fronteiras entre profissão e hobby, 
+                            capacitando você para brilhar em qualquer área da sua paixão.
+                        </p>
+                        <button id="btn-course" data-aos="fade-up"
+                        data-aos-duration="3000"> saiba mais</button>
+                        
+                    
+                    </div>
+                    <img src="/imagens/waves2.png" alt="">
+
+                </div>
+                <div id="right-side">
+                    <img src="/imagens/back-cr.png" alt="" data-aos="zoom-in-up" data-aos-duration="2000">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="curse-modules" >
+            
+            
+            <div id="modules-area" class="container-md"  data-aos="flip-left">
+                <i class="bi bi-arrow-left" id="backmodule"></i>
+                <h2>o que voce vai aprender</h2>
+                    <div id="modules">
+                    
+                        <div id="module"  >
+                            <div id="md-title" data-aos="fade-down" >
+                                <h1>Estetica automotiva</h1> <i class="bi bi-patch-check-fill"></i>
+                            </div>
+                            
+                            <div id="md-desc">
+                                
+                                <p>
+                                    Explicação sobre os produtos e diluições,
+                                    Máquinas 
+                                </p>
+                                <ul>
+                                    
+                                    <li>Higienização completa do interior  </li>
+                                    <li>Lavagem técnica do motor + proteção </li>
+                                    <li>Lavagem técnica da pintura + descontaminação</li>
+                                    <li>Mapeamento e avaliação da pintura  </li>
+                                    <li>Polimento comercial  </li>
+                                    <li>Polimento técnico  </li>
+                                    <li>Proteção da pintura </li>
+                                    <li>Ceras, selanes e vitrificadores </li>
+                                </ul>
+                               
+                            </div>
+                            
+                        </div>
+                        <div id="module">
+                            <div id="md-title">
+                                <h1>polimento</h1> <i class="bi bi-patch-check-fill"></i>
+                            </div>
+                            
+                            <div id="md-desc">
+                                
+                                <p>
+                                    Iniciamos com a alua teórica sobra as máquinas, compostos e  boinas 
+                                </p>
+                                <ul>
+                                    <li>Lavagem técnica da pintura</li>
+                                    <li>Descontaminação da pintura</li>
+                                    <li>Mapeamento e avaliação antes do polimento</li>
+                                    <li>Polimento comercial</li>
+                                    <li>Polimento técnico</li>
+                                    <li>Proteções: ceras selantes e vitrificadores</li>
+                                </ul>
+                               
+                            </div>
+                            
+                        </div>
+                        <div id="module">
+                            <div id="md-title">
+                                <h1>polimento pos repintura</h1> <i class="bi bi-patch-check-fill"></i>
+                            </div>
+                            
+                            <div id="md-desc">
+                                
+                                <ul>
+                                    <li> Depois da parte teórica vamos avaliar o carro ou peça que foi feita a repintura </li>
+                                    <li>Depois da avaliação, iniciaremos com o lixamento técnico da peça </li>
+                                    <li>Após o lixamento completo da peça, vamos iniciar o polimento técnico pós repintura</li>
+                                </ul>
+                            
+                            </div>
+                           
+                        </div>
+                    </div>
+            </div>
+        </div>
+       
+     <!-- sessão de feedbacks-->
+    <section>
+        <div id="feedbacks" >
+           
+                <div id="ft-cont" class="container">
+                    <h2 data-aos="fade-right"> depoimentos</h2>
+                    <div class="feedback-divisors">
+                        <div data-aos="fade-down" id="avatar" >
+                            <i class="bi bi-person-circle"></i>
+                        </div>
+    
+                        <div class="slide-area"  data-aos="zoom-in">
+                            <div id="quotes">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                        
+    
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="description-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Adipisci numquam voluptatum 
+                                            explicabo possimus totam sunt blanditiis aliquam.
+                                            Cupiditate magnam ipsam amet nobis! Dicta possimus
+                                            odit laudantium saepe, aspernatur sunt veniam.
+                                        </p>
+                                        <span id="comment-name"> comentarista santos</span>
+                                        <span id="comment-via"> via instagram</span>
+                                    </div>
+                                   
+    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="description-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Adipisci numquam voluptatum 
+                                            explicabo possimus totam sunt blanditiis aliquam.
+                                            Cupiditate magnam ipsam amet nobis! Dicta possimus
+                                            odit laudantium saepe, aspernatur sunt veniam.
+                                        </p>
+                                        <span id="comment-name"> comentarista silva</span>
+                                        <span id="comment-via"> via whatsapp</span>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="description-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Adipisci numquam voluptatum 
+                                            explicabo possimus totam sunt blanditiis aliquam.
+                                            Cupiditate magnam ipsam amet nobis! Dicta possimus
+                                            odit laudantium saepe, aspernatur sunt veniam.
+                                        </p>
+                                        <span id="comment-name"> comentarista pedro</span>
+                                        <span id="comment-via"> via facebook</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+           
+        </div>
+    </section>
+
+      <!-- sessão de footer-->  
+    <footer>
+        <div id="footer-area">
+            <div id="ft-container" class="container">
+                <div id="map-desc" data-aos="fade-right" >
+                    <h2>Nos faça uma visita</h2>
+                    <p><i class="bi bi-geo-alt-fill"></i> QOF Conjunto G, Candangolândia-DF</p>
+                    <hr>
+                </div>
+                <div id="map-place"  data-aos="zoom-in-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d239.8765975703718!2d-47.95251199236467!3d-15.855253830617988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1680310767637!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+           
+            
+            >
+                <!-- area de animação-->
+            <div id="background-contact">
+                <div id="contato" class="container-md" >
+             
+                    <div id="contact-info" data-aos="fade-right" >
+                         <h2>Faça seu orçamento</h2>
+                         <p>Entre em ontato e agende seu horario</p>
+                         <hr>
+                    </div>  
+                 
+                 <div class="contacts">
+                     <div id="contact" data-aos="fade-down" data-aos-duration="1800">
+                         <a href="https://wa.me/5561993624234" target="_blank" rel="noopener noreferrer"> <i class="bi bi-whatsapp"></i></i> <span>whatsapp</span> </a>
+                     </div>
+                     <div id="contact" data-aos="fade-down" data-aos-duration="3000">
+                         <a href="http://" target="_blank" rel="noopener noreferrer"> <i class="bi bi-telephone"></i> <span>00 0000-0000</span> </a>
+                     </div>
+                 </div>
+                 
+             </div>
+            </div>
+            <div id="background-contact-footer">
+                    
+                <div id="footer-info-sex" class="container-md">
+                    <div id="socialArea" style="color:black">
+    
+                        <div id="social-header">
+                            <div id="logo">
+                                <div class="logo-area"data-aos="fade-down">
+                                    <div id="logo">
+                                        <img src="imagens/logo.png" alt="">
+                                    </div>
+                                    <div id="logo-description">
+                                        <h3> <strong>wh</strong> <span></span> detail </h3>
+                                        <p>Estetica automotiva</p>
+                                    </div>
+                               </div>
+                            
+                            <h3 data-aos="fade-right">nos acompanhe em nossas redes</h3>
+                        </div>
+                        
+                        </div>
+                        
+                        <div id="redes">
+                    
+        
+                            <div id="rede-inst" class="rede" data-aos="fade-down" data-aos-duration="1000">
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"> <i class="bi bi-instagram"></i></a>
+                            </div>
+                            <div id="rede-tk" class="rede"data-aos="fade-down" data-aos-duration="1500">
+                                <a href="https://www.tiktok.com/explore" target="_blank" rel="noopener noreferrer"> <i class="bi bi-tiktok"></i></a>
+                            </div>
+                            <div id="rede-fb" class="rede" data-aos="fade-down" data-aos-duration="2000">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"> <i class="bi bi-facebook"></i></a>
+                            </div>
+                            <div id="rede-yt" class="rede" data-aos="fade-down" data-aos-duration="2500">
+                                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"> <i class="bi bi-youtube"></i></a>
+                            </div>
+                        </div>
+                       
+                        
+        
+                    </div>
+                    <hr>
+                    <div id="footer-contatos" data-aos="fade-right">
+                        
+                        <h3>Contatos</h3>
+                        <div id="email">
+                            <i class="bi bi-envelope-at"></i>
+                            <span> email.email@gmail.com</span>
+                        </div>
+                        <div id="email">
+                            <i class="bi bi-telephone"></i>
+                            <span>00 0000-0000</span>
+                        </div>
+                      <div id="funcionamento">
+                        <h3>horario de Funcionamento</h3>
+                        <i class="bi bi-clock"></i>
+                        <span>8h00 - 18h00</span>
+                       
+                      </div>
+    
+                    </div>
+                    <hr>
+                    <div id="duvidas" data-aos="fade-right">
+                        <h3>Duvidas Frequentes</h3>
+                    
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Duvida frequente?
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"> Resposta da pergunta frequente</a></li>
+                              
+                            </ul>
+                          </div>
+                          
+                          <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Duvida frequente?
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">resposta da duvida frequente</a></li>
+                           
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Duvida frequente?
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">resposta da duvida frequente</a></li>
+                           
+                            </ul>
+                          </div>
+    
+                    </div>
+                    
+    
+    
+                </div>
+
+            </div>
+          
+        
+            <div id="creditos">
+           
+               <p>© WH DETAIL | Todos os direitos Reservados  | Desenvolvido por Wengles santos</p>
+            </div>
+
+            
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

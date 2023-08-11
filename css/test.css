@@ -1,0 +1,10 @@
+:root{
+    --main-color:#03B3FF;
+    --sec-color:#2A3D62;
+    --tert-color:#2B2B2B;
+    --quart-color:#242532;
+}
+.modal-body span li{
+    color:var(--quart-color);
+    list-style:none;
+}
